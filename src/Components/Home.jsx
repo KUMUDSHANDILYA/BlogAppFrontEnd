@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Blogs from './Blogs';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,8 +10,7 @@ function Home() {
   return (
     <Container>
       <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 3</Col>
+        <Blogs/>
       </Row>
     </Container>
   );
